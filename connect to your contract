@@ -1,0 +1,6 @@
+// connect to your contract
+const contract = getContract({ 
+  client, 
+  chain: defineChain(7777777), 
+  address: "0xb3d0bA3c295FdB0918Fe4BcDE04f62f36E60F50c"
+});
