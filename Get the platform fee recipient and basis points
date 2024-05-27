@@ -1,0 +1,3 @@
+const feeInfo = await contract.platformFees.get();
+console.log(feeInfo.platform_fee_recipient);
+console.log(feeInfo.platform_fee_basis_points);
