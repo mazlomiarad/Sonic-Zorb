@@ -1,0 +1,3 @@
+await contract.metadata.update({
+  description: "My new contract description"
+})
