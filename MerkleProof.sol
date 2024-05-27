@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: Apache 2.0
 pragma solidity ^0.8.0;
 
-/// @author thirdweb
+/// @author SonicZorb
 
 /**
  * @dev These functions deal with verification of Merkle Trees proofs.
