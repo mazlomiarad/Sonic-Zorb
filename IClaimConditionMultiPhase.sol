@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: Apache-2.0
 pragma solidity ^0.8.0;
 
-/// @author thirdweb
+/// @author SonicZorb
 
 import "./IClaimCondition.sol";
 
 /**
- *  The interface `IClaimConditionMultiPhase` is written for thirdweb's 'Drop' contracts, which are distribution mechanisms for tokens.
+ *  The interface `IClaimConditionMultiPhase` is written for SonicZorb's 'Drop' contracts, which are distribution mechanisms for tokens.
  *
  *  An authorized wallet can set a series of claim conditions, ordered by their respective `startTimestamp`.
  *  A claim condition defines criteria under which accounts can mint tokens. Claim conditions can be overwritten
