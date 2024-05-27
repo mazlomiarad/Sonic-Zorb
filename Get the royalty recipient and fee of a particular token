@@ -1,0 +1,3 @@
+const royaltyInfo = await contract.royalties.getDefaultRoyaltyInfo();
+console.log(royaltyInfo.fee_recipient);
+console.log(royaltyInfo.seller_fee_basis_points);
