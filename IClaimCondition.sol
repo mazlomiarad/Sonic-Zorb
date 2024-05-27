@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: Apache-2.0
 pragma solidity ^0.8.0;
 
-/// @author thirdweb
+/// @author SonicZorb
 
 /**
- *  The interface `IClaimCondition` is written for thirdweb's 'Drop' contracts, which are distribution mechanisms for tokens.
+ *  The interface `IClaimCondition` is written for SonicZorb's 'Drop' contracts, which are distribution mechanisms for tokens.
  *
  *  A claim condition defines criteria under which accounts can mint tokens. Claim conditions can be overwritten
  *  or added to by the contract admin. At any moment, there is only one active claim condition.
