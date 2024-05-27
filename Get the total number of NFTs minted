@@ -1,0 +1,2 @@
+const count = await contract.erc1155.totalCount();
+console.log(count);
