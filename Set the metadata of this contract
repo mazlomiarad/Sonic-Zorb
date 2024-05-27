@@ -1,0 +1,4 @@
+await contract.metadata.set({
+  name: "My Contract",
+  description: "My contract description"
+})
