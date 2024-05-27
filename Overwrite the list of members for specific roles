@@ -1,0 +1,5 @@
+const minterAddresses = await contract.roles.get("minter");
+await contract.roles.setAll({
+ minter: []
+});
+console.log(await contract.roles.get("minter")); // No matter what members had the role before, the new list will be set to []
