@@ -1,0 +1,4 @@
+// Address of the wallet to check NFT balance
+const walletAddress = "0x82a546157F2ca11820590b0764Efc019050A1f93";
+const tokenId = 0; // Id of the NFT to check
+const balance = await contract.erc1155.balanceOf(walletAddress, tokenId);
