@@ -1,0 +1,1 @@
+await contract.roles.revoke("minter", "0x82a546157F2ca11820590b0764Efc019050A1f93");
